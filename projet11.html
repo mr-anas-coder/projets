@@ -1,0 +1,51 @@
+<!DOCTYPE html> 
+<html lang="fr"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <title>TP - 5 boutons JavaScript</title> 
+    <link href="projet11.css" rel="stylesheet">
+</head> 
+<body> 
+    <h1>Ma page interactive</h1> 
+ 
+    <div class="boutons"> 
+        <button id="btn1">Dire bonjour</button> 
+        <button id="btn2">Afficher la date</button> 
+        <button id="btn3">Changer la couleur</button> 
+        <button id="btn4">Nombre aléatoire</button> 
+        <button id="btn5">Effacer</button> 
+    </div> 
+ 
+    <div id="affichage"> 
+        <p id="message">Cliquez sur un bouton.</p> 
+    </div> 
+
+    <button id="btn1" onclick="direBonjour()">Dire bonjour</button> 
+ 
+    <script src="script.js">
+        function afficherDate() { 
+            var maintenant = new Date(); 
+            var texte = "Nous sommes le " + maintenant.toLocaleDateString("fr-FR") + 
+                        " et il est " + maintenant.toLocaleTimeString("fr-FR") + "."; 
+            document.getElementById("message").textContent = texte; 
+        } 
+
+        function changerCouleur() { 
+            var couleurs = ["#ffeaa7", "#fab1a0", "#81ecec", "#a29bfe", "#b2f2bb"]; 
+            var indice = Math.floor(Math.random() * couleurs.length); 
+            document.body.style.backgroundColor = couleurs[indice]; 
+            document.getElementById("message").textContent = "Nouvelle couleur de fond : " + couleurs[indice]; 
+        } 
+
+        function nombreAleatoire() { 
+            var nombre = Math.floor(Math.random() * 100) + 1; 
+            document.getElementById("message").textContent = "Votre nombre aléatoire est : " + nombre; 
+        } 
+
+        function effacer() { 
+            document.getElementById("message").textContent = ""; 
+        } 
+    </script> 
+</body> 
+</body> 
+</html> 
