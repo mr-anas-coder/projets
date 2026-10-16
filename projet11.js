@@ -21,7 +21,11 @@ function nombreAleatoire() {
     document.getElementById("message").textContent = "Votre nombre aléatoire est : " + nombre; 
 } 
 
-function verif_age() {
+function effacer() { 
+    document.getElementById("message").textContent = ""; 
+} 
+
+fonction verif_age() {
     let n1 = prompt("Donnez votre âge : ")
  
     if (n1 < 18) {
