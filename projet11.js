@@ -37,13 +37,3 @@ function verif_age() {
         document.body.style.backgroundColor = "green"
     }
 }
-
-function demandeNombre() {
-    let nb1 = prompt("Entrez votre 1er nombre")
-    let nb2 = prompt("Entrez votre 2e nombre")
-    let nb3 = prompt("Entrez votre 3e nombre")
-
-    var resultat = prompt((nb1 + nb2 + nb3) / 3);
-
-    document.write("La moyenne est :" resultat)
-}
