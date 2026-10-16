@@ -46,5 +46,5 @@ function calculerNotes() {
     let somme = Number(nb1) + Number(nb2) + Number(nb3);
     let moyenne = somme / 3;
 
-    document.getElementById("message").textContent = "Somme :" + somme + "- Moyenne :" + moyenne;
+    document.getElementById("message").textContent = "La somme est :" + somme + " et la Moyenne est :" + moyenne;
 }
