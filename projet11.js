@@ -37,3 +37,14 @@ function verif_age() {
         document.body.style.backgroundColor = "green"
     }
 }
+
+finction calculerNotes() {
+    let nb1 = (prompt("Note 1 :"));
+    let nb2 = (prompt("Note 2 :"));
+    let nb3 = (prompt("Note 3 :"));
+
+    let somme = Number(nb1) + Number(nb2) + Number(nb3);
+    let moyenne = somme / 3;
+
+    document.getElementById("message").textContent = "Somme :" + somme + "- Moyenne :" + moyenne;
+}
