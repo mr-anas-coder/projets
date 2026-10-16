@@ -21,6 +21,15 @@ function nombreAleatoire() {
     document.getElementById("message").textContent = "Votre nombre aléatoire est : " + nombre; 
 } 
 
-function effacer() { 
-    document.getElementById("message").textContent = ""; 
-} 
+function verif_age() {
+    let n1 = prompt("Donnez votre âge : ")
+ 
+    if (n1 < 18) {
+        document.write("Vous êtes mineur")
+  document.body.style.backgroundColor = "red"
+    }
+    else {
+        document.write("Vous êtes majeur")
+        document.body.style.backgroundColor = "green"
+    }
+}
