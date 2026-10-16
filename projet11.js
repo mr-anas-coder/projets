@@ -25,7 +25,7 @@ function effacer() {
     document.getElementById("message").textContent = ""; 
 } 
 
-fonction verif_age() {
+function verif_age() {
     let n1 = prompt("Donnez votre âge : ")
  
     if (n1 < 18) {
