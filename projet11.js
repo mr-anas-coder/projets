@@ -38,7 +38,7 @@ function verif_age() {
     }
 }
 
-finction calculerNotes() {
+function calculerNotes() {
     let nb1 = (prompt("Note 1 :"));
     let nb2 = (prompt("Note 2 :"));
     let nb3 = (prompt("Note 3 :"));
