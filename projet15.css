@@ -1,0 +1,16 @@
+body {
+	background: yellow;
+}
+
+h1 {
+	color: black;
+	font-size: 30px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	text-shadow: 0 0 10px black;
+	text-align: center;
+	margin-top: 500px;
+}
