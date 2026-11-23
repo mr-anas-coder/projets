@@ -1,16 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
-	background: yellow;
+    background: #1f3527;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h1 {
-	color: black;
-	font-size: 30px;
+    color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    width: 20%;
+    font-size: 35px;
+    margin-top: 2rem;
+    background: #233832;
+    box-shadow: 0 0 10px black;
+    text-shadow: 0 0 10px black;
+    padding: 0.5rem;
 }
 
 a {
-	color: black;
-	text-decoration: none;
-	text-shadow: 0 0 10px black;
-	text-align: center;
-	margin-top: 500px;
+   text-decoration: none;
+   color: whitesmoke;
+   margin-top: 2rem;
+}
+
+.btn {
+    border: none;
+    width: 20%;
+    display: inline-block;
+    font-size: 25px;
+    background: #233832;
+    box-shadow: 0 0 10px black;
+    text-shadow: 0 0 10px black;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+#btn1 {
+    margin-top: 1rem;
+}
+
+.btn:hover {
+    background: #116045;
 }
