@@ -42,10 +42,10 @@ a {
     padding: 0.5rem;
 }
 
-#btn1, #btn2, #btn3, #btn4, #btn5, #btn6, #btn7, #btn8, #btn9, #btn10, #btn11, #btn12, #btn13, #btn14, #btn15 {
-    margin-top: 1rem;
-}
-
 .btn:hover {
     background: #116045;
+}
+
+#btn1, #btn2, #btn3, #btn4, #btn5, #btn6, #btn7, #btn8, #btn9, #btn10, #btn11, #btn12, #btn13, #btn14 {
+    margin-top: 1rem;
 }

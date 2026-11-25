@@ -1,0 +1,39 @@
+body {
+    background: pink;
+    font-family: arial;
+}
+
+.container-titre {
+    border: none;
+    height: 300px;
+    width: 400px;
+    float: left;
+    background: red;
+}
+
+.container-titre h1 {
+    color: yellow;
+    font-size: 60px;
+    margin-top: 55px;
+}
+
+.container-texte {
+    border: none;
+    height: 400px;
+    width: 400px;
+    background: red;
+    float: right;
+}
+
+.container-texte p {
+    color: yellow;
+    font-size: 30px;
+}
+
+.container-image {
+    border: none;
+    height: 400px;
+    width: 400px;
+    background: red;
+    clear: both;
+}

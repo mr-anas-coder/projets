@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #181833;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container-titre {
+    background: #20204a;
+    height: 60px;
+}
+
+.container-titre h1 {
+    color: whitesmoke;
+    padding: 0.6rem;
+}
+
+.container {
+    border: none;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.container .block1 {
+    border: none;
+    width: 32%;
+    background: #053345;
+    border-radius: 10px;
+}
+
+.container .block1 .card1 {
+    border: none;
+    height: 10%;
+    width: 95%;
+    margin-top: 1rem;
+    background: #20204a;
+    border-radius: 5px;
+}
+
+.container .block1 .card1 h2 {
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 0 0 10px black;
+    padding: 0.6rem;
+}
+
+.container .block1 .card2 {
+    border: none;
+    height: 80%;
+    margin-top: 0.5rem;
+    width: 95%;
+    background: #20204a;
+    border-radius: 10px;
+}
+
+.container .block1 .card2 p {
+    color: whitesmoke;
+    text-shadow: 0 0 10px black;
+    font-size: 20px;
+    padding: 1rem;
+}
+
+.container .block1 .card2 p b, i {
+    color: wheat;
+}
+
+.container .block2 {
+    border: none;
+    width: 32%;
+    background: #053345;
+    border-radius: 10px;
+}
+
+.container .block2 .card1 {
+    border: none;
+    height: 10%;
+    width: 95%;
+    margin-top: 1rem;
+    background: #20204a;
+    border-radius: 5px;
+}
+
+.container .block2 .card1 h2 {
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 0 0 10px black;
+    padding: 0.6rem;
+}
+
+.container .block2 .card2 {
+    border: none;
+    height: 80%;
+    margin-top: 0.5rem;
+    width: 95%;
+    background: url("alvaro_morte.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.container .block3 {
+    border: none;
+    width: 32%;
+    background: #053345;
+    border-radius: 10px;
+}
+
+.container .block3 .card1 {
+    border: none;
+    height: 10%;
+    width: 95%;
+    margin-top: 1rem;
+    background: #20204a;
+    border-radius: 5px;
+}
+
+.container .block3 .card1 h2 {
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 0 0 10px black;
+    padding: 0.6rem;
+}
+
+.container .block3 .card2 {
+    border: none;
+    height: 80%;
+    margin-top: 0.5rem;
+    width: 95%;
+    background: #20204a;
+    border-radius: 10px;
+}
+
+.container .block3 .card2 p {
+    color: whitesmoke;
+    text-shadow: 0 0 10px black;
+    font-size: 20px;
+    padding: 1rem;
+}
+
+.container-button {
+    border: none;
+    height: 60px;
+    background: #20204a;
+    margin-top: 1rem;   
+}
+
+a {
+   text-decoration: none;
+   color: whitesmoke;
+   margin-top: 0.8rem;
+}
+
+.btn {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    width: 15%;
+    display: inline-block;
+    font-size: 25px;
+    background: #181833;
+}
+
+.btn:hover {
+    background: #053345;
+}
